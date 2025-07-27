@@ -1,9 +1,64 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>igem</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>igem</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      color: #2c3e50;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      padding: 1rem;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    a:hover {
+      background: #2980b9;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <a href="./bionn/index.html">bionn</a>
-    <a href="./prelaunch/index.html">prelaunch</a>
-    <a href="./website/index.html">website</a>
+  <header>thppn @ igem</header>
+  <nav>
+    <a href="./bionn/index.html">bionn - 2048 fork for TEDx Mavili Square 2019</a>
+    <a href="./prelaunch/index.html">prelaunch webpage</a>
+    <a href="./website/index.html">iGEM Ioannina initial website</a>
+  </nav>
 </body>
+</html>
